@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261789967677",
+    "project_id": "mod-blog",
+    "storage_bucket": "mod-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261789967677:android:4c1c1068e2998589d95154",
+        "android_client_info": {
+          "package_name": "com.modcom.bensalcie.modblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261789967677-440s2d7litjibs8b179rk3g65oao10qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGYo_hALOclXz2QKinVd4oONVV_793Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261789967677-440s2d7litjibs8b179rk3g65oao10qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

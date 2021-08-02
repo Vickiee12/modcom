@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:padding="30dp"
+        android:id="@+id/ivIMage"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_height="250dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter title"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"
+        android:id="@+id/etTitle"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Description"
+        android:layout_margin="20dp"
+        android:lines="5"
+        android:id="@+id/etDescription"
+        android:gravity="start"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:text="POST BLOG"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:iconTint="@color/white"
+        android:id="@+id/btnPost"
+        android:onClick="postToFirebase"
+        android:layout_gravity="center"
+        app:icon="@android:drawable/ic_input_add"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
